@@ -44,6 +44,12 @@
     border-color: #fff !important;
 }
 
+.btn-primary:hover {
+    background-color: white  !important;
+    color: black !important;
+    border-color: black !important;
+}
+
 .card-img-top {
     height: 144px;
 }
@@ -78,4 +84,45 @@
 
 .adv1 {
     margin-top: 50px;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color: #fff !important;
+}
+.btn-outline-success:hover {
+    background-color: white !important;
+    color: black !important;
+    border-color: black !important;
+}
+
+.card-adv {
+    display: flex;
+    align-items: center;
+}
+
+.card-adv img{
+    width: 450px;
+    height: 100%;
+    border-radius: 9px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.second-adv img{
+    order: 2;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.bottom-info {
+    text-align: center;
+    padding: 100px;
+}
+
+@media (min-width: 1000px) {
+    .card-adv img {
+        width: 800px;
+        object-fit: cover;
+    }
 }
