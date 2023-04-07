@@ -121,6 +121,35 @@
     padding: 100px;
 }
 
+.d-flex {
+    align-items: center;
+}
+
+.sign {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.sign:hover {
+    color: white;
+}
+
+.modal-body {
+    max-width: 100px;
+}
+
+.form {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.form input {
+    border:  1px solid black;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
 @media (max-width: 1000px) {
     .card-adv img {
         width: 360px;
